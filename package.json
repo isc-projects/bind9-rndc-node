@@ -1,0 +1,16 @@
+{
+  "name": "bind9-rndc",
+  "version": "0.9.0",
+  "description": "client library for the BIND9 DNS server's RNDC management protocol",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bind9",
+    "rndc",
+    "dns"
+  ],
+  "author": "Ray Bellis <ray@isc.org> (https://www.isc.org/)",
+  "license": "MPL-2.0"
+}
