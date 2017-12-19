@@ -10,7 +10,7 @@ const RNDC_Protocol = require('./lib/protocol');
  * @param {string} host - the BIND9 server hostname
  * @param {number} port - the BIND9 server's rndc port
  * @param {string} key - the rndc shared key, in base64 format
- * @param {string} algo - the rndc shared algorithm (e.g. "hmac-md5")
+ * @param {string} algo - the rndc shared algorithm (e.g. "sha256")
  * @returns {RNDC_Protocol} - an RDNC_Protocol session object
  */
 function connect(host, port, key, algo) {

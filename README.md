@@ -14,7 +14,7 @@ the usual `rndc.conf` syntax.
     var RNDC = require('./index');
 
     var key = '2or79WFROyibcP/qixhklCiZIL4aHfRIQj7yyodzQBw=';
-    var algo = 'hmac-sha256';
+    var algo = 'sha256';
 
     var session = RNDC.connect('localhost', 953, key, algo);
 
@@ -38,3 +38,6 @@ connection for each command.
 In BIND 9.11 and later a valid response will contain a `result`
 key with a (string) variable containing the value `0`, or an error
 code otherwise.
+
+Valid crypto algorithms are `md5`, `sha1`, `sha224`, `sha256`,
+`sha384`, and `sha512`.
