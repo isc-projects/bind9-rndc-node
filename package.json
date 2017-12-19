@@ -18,6 +18,7 @@
     "url": "ssh://repo.isc.org/proj/git/exp/bind9-rndc-node.git"
   },
   "devDependencies": {
+    "documentation": "^5.3.5",
     "mocha": "^4.0.1"
   }
 }
