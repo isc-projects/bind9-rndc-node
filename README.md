@@ -11,7 +11,7 @@ The code below sends the "status" command to the default rndc port
 on the machine `localhost`.   The key data is base64 encoded, as per
 the usual `rndc.conf` syntax.
 
-    var RNDC = require('./index');
+    var RNDC = require('bind9-rndc');
 
     var key = '2or79WFROyibcP/qixhklCiZIL4aHfRIQj7yyodzQBw=';
     var algo = 'sha256';

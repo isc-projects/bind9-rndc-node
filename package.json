@@ -1,6 +1,6 @@
 {
   "name": "bind9-rndc",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "client library for the BIND9 DNS server's RNDC management protocol",
   "main": "index.js",
   "scripts": {
